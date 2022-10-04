@@ -1,0 +1,44 @@
+*{
+    text-align:  center;
+}
+body{
+    background-image: linear-gradient(to left, #e22865, #37adcd);
+}
+.container{
+    width: 360px;
+    text-align: center;
+    margin: auto;
+}
+#iconimg{
+    margin-top: 20px;
+    height: 50px;
+}
+#inputfield{
+    width: 300px;
+    border: 1px black solid;
+    border-radius: 15px;
+    font-size: 20px;
+}
+#add{
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+.container button:hover{
+    background-color: transparent;
+    color: white;
+}
+.todos{
+    width: 500;
+    margin: auto;
+}
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+#lastpic{
+    margin-top: 5%;
+    height: 150px;
+}
