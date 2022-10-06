@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: rgb(131, 125, 125);
+  }
+  h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: rgb(62, 22, 62);
+    margin-left: 25rem;
+  }
+  h1 i{
+    color: rgb(239, 243, 13);
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(40, 38, 38);
+    box-shadow: 0px 3px 1.2px 0px whitesmoke;
+  }
+  .log h1{
+    font-family: "Candara", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(189, 233, 118);
+    text-decoration: none;
+  }
+  .btn{
+    font-family: "Candara", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+  }
+  .btn {
+    padding: 9px 25px;
+    background-color: rgb(246, 246, 248);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  .btn:hover {
+    background-color: rgba(120, 159, 238, 0.8);
+  }
+  .cards {
+    display: table;
+  }
+  .card {
+    font-family: "Candara", sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background: rgb(170, 195, 95);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+  }
+  .card-image img {
+    width: 100%;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+  }
+  .profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid rgb(238, 234, 219);
+    transition-duration: 0.4s;
+    transition-property: transform;
+  }
+  .profile-image img:hover {
+    transform: scale(1.1);
+  }
+  .card-content h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+  }
+  .card-content h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+    color: rgb(75, 75, 243);
+    text-decoration: underline;
+  }
