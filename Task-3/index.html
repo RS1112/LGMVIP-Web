@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Task-3 Registration Form</title>
+</head>
+<body>
+        <h1>STUDENT ENROLLMENT FORM</h1>
+    <div class="main">
+        <div class="box">
+            <div class="details">
+                <form class="info">
+                    <div >
+                        <label for="name">NAME : </label>
+                        <input type="text" id="Name" placeholder="name" name="Name">
+                    </div>
+                    <div >
+                        <label for="email">EMAIL : </label>
+                        <input type="text" id="Email" placeholder="email" name="Email">
+                    </div>
+                    <div>
+                        <label for="website">WEBSITE LINK : </label>
+                        <input type="text" id="website" placeholder="www.abc.com" name="website">
+                    </div>
+                    <div style="display: flex;">
+                        <label for="Image">UPLOAD IMAGE : </label>
+                        <input type="file" id="Image" name="Image" class="custom-file-input" onchange="image(event)">
+                    </div>
+                    <div class="gender">
+                        <p>GENDER : </p>
+                        <label><input name="gender" type="radio" id="Male" value="male">  MALE</label>
+                        <div class="g2">
+                            <label><input name="gender" type="radio" id="Female" value="female">  FEMALE</label><br>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <p>SKILLS : </p>
+                        <label><input name="html" type="checkbox" value="html" id="html"> HTML</label><br>
+                        <div class="s2">
+                            <label><input name="css" type="checkbox" value="css" id="css">  CSS</label><br>
+                            <label><input name="js" type="checkbox" value="java script" id="js">  JAVA SCRIPT</label><br>
+                        </div>
+                        <div class="btn">
+                            <button type="button" id="btn" class="button">Submit</button>
+                            <button type="clear" class="button">Clear</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <div class="box">
+            <div class="display">
+                <h1>Enrolled Students Details</h1>
+                <div class="cards"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
