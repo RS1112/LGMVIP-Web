@@ -1,0 +1,58 @@
+*{
+    font-size: large;
+}
+body{
+    background: rgb(86, 54, 54);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+.container {
+    margin-left: 35%;
+    margin-top: 2%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: beige;
+}
+.result #screen{
+    border-radius: 20px;
+    border: 3px solid black;
+    color: rgb(86, 54, 54);
+    font-size:xx-large;   
+    margin-bottom: 10px;
+    background-color: rgb(248, 242, 242);
+}
+.container {
+    padding: 10px;
+    justify-content: space-between;
+    display: inline-block;
+}
+.container table{
+    margin-left: 10px;
+}
+.container table button{
+    justify-content: space-around;
+    width: 5rem;
+    height: 3.5rem;
+    padding : 1rem;
+    margin-bottom: .5rem;
+    background-color: rgb(205, 205, 81);
+    border-radius: 22px ;
+    border: 2px solid black;
+}
+.container table #col,#clear{
+    background-color: rgb(113, 234, 109);
+}
+.container table button:hover{
+    background-color: rgb(144, 144, 137);
+}
+.container table #col:hover,#clear:hover{
+    background-color: rgb(57, 128, 60);
+}
+#col{
+    width: 10.5rem;
+}
